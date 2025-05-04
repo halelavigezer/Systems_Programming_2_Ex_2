@@ -40,9 +40,9 @@ This project implements a `SquareMat` class in C++ and includes a main program a
 
 - **SquareMat operator-(const SquareMat& other)** – Returns a new matrix where each element is the difference between matching elements.
 
-- **SquareMat operator*(const SquareMat& other)** – Performs standard matrix multiplication and returns the result.
+- **SquareMat operator * (const SquareMat& other)** – Performs standard matrix multiplication and returns the result.
 
-- **SquareMat operator*(int scalar)** – Multiplies every element in the matrix by the given number.
+- **SquareMat operator * (int scalar)** – Multiplies every element in the matrix by the given number.
 
 - **SquareMat operator%(int mod)** – Applies the modulo operation (%) to each element in the matrix.
 
